@@ -14,12 +14,13 @@ public class String_patternMatching {
 		int pi = 0;
 		while (ti < text.length() && pi < pattern.length()) {
 			if(text.charAt(ti) != pattern.charAt(pi)) {
-				ti -= pi; 
+				ti = ti - pi; 
 				pi = -1;
 			}
 			ti++;
 			pi++;
 		}
+		
 		
 		if(pi == pattern.length()) {
 			// 찾았다
