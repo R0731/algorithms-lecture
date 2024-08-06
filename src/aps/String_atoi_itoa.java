@@ -20,7 +20,7 @@ public class String_atoi_itoa {
 		String intStr = String.valueOf(intVar);
 		System.out.println(intStr);
 		
-		itoa(intVar);
+		//itoa(intVar);
 		
 	}
 	
@@ -40,7 +40,7 @@ public class String_atoi_itoa {
 		return num;
 	}
 	
-	static String itoa(int num) {
-		
-	}
+//	static String itoa(int num) {
+//		
+//	}
 }
