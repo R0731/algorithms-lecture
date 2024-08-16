@@ -1,4 +1,4 @@
-package aps;
+package Tree.순회;
 
 public class Tree_순회 {
 

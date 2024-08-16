@@ -1,4 +1,4 @@
-package linkedList_double;
+package Tree.linkedList_double;
 
 //같은 패키지 안에 동일한 class정의가 불가능하여 따로 패키지를 만들었다.
 class Node{
