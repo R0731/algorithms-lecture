@@ -36,7 +36,7 @@ public class S3_1260_DFS와BFS {
         answer2[idx] = order2;
         order2++;
 
-        for(int i = 1; i <= )
+//        for(int i = 1; i <= )
     }
 
     public static void main(String[] args) throws IOException {
