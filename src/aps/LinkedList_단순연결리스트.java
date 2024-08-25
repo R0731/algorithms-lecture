@@ -10,6 +10,7 @@ class SinglyLinkedList {
     int size;
 
     SinglyLinkedList() {
+
         head = new Node(); //생성자 안에서 head라는 변수에 새로운 노드 할당
     }
 
