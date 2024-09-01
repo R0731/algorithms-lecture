@@ -63,5 +63,7 @@ public class S2_24480_알고리즘수업깊이우선탐색2 {
         for(int i = 1; i <= N; i++){
             System.out.println(answer[i]);
         }
+
+
     }
 }
