@@ -67,7 +67,7 @@ public class 다익스트라_02_우선순위큐 {
 
                 }
             }
-            pq.addAll(adjList[e.B]);
+//            pq.addAll(adjList[e.B]);
         }
 
     }//main
