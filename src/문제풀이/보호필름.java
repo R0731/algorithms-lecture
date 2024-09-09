@@ -39,9 +39,10 @@ public class 보호필름 {
     //cnt : 약품을 주입 횟수
     private static void makefilm(int idx, int cnt) {
         //백트래킹 가지치기
-        if(isOk()) //백트래킹 1. 0행에서 해봤더니 괜찮아 더 실행할 필요 x
+        if(isOk()) { //백트래킹 1. 0행에서 해봤더니 괜찮아 더 실행할 필요 x
             ans = Math.min(ans, cnt);
-        return;
+            return;
+        }
 
         if(ans < cnt) return; //백트래킹 2. 이미 나는 더 작은 수를 가지고 있으므로 더 큰 값은 실행할 필요 없음
 
